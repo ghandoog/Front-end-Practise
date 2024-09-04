@@ -1,0 +1,40 @@
+$bg-color: yellow;
+$bg-secondary: orange;
+
+@mixin rounded{
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+body{
+    background-color: $bg-color;
+}
+
+.main-header{
+    width: 22rem;
+    margin: auto;
+   @include rounded();
+    background-color: white;
+    box-shadow: 8px 5px 0px 4px rgba(0,0,0,);
+
+    img{
+        border-radius: 1rem;
+    }
+
+    p{
+        opacity: .5;
+    }
+
+    .sub-title{
+        background-color: $bg-secondary;
+        width: fit-content;
+        padding: 1rem;
+        border-radius: .5rem;
+    }
+
+    .footer{
+        display: flex;
+        gap: 10px;
+    }
+
+}

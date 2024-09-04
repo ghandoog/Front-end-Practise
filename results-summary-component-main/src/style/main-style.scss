@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Sofia|Trirong');
+
+$color-primary: white;
+$color-secondary: blue;
+
+*{
+    font-family: "Open Sans", "Sofia";
+}
+
+@mixin transparency(){
+    color: $color-primary;
+    opacity: .5;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    background-color: $color-secondary;
+    padding: 3rem;
+    width: fit-content;
+    border-radius: 1rem;
+    &:hover{
+        box-shadow: 16px 17px 12px -3px rgba(0,0,0,0.5);
+    }
+
+    .result{
+        @include transparency();
+    }
+}
+
+.left-container{
+    background-color: pink;
+    padding: 1%;
+    border-radius: 2rem;
+}
+
+.result-title{
+    @include transparency();
+    margin-bottom: 2rem;
+}
+
+.rounded-circle{
+    width: fit-content;
+    background-color: purple;
+    border-radius: 25rem;
+    padding: 2rem;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin primary-font(){
+    font-size: 50px;
+    font-weight: bolder;
+    color: $color-primary;
+}
+
+.score-point{
+    @include primary-font();
+}
+
+
+.state{
+    @include primary-font();
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+p{
+    @extend .result-title;
+    width: fit-content;
+
+}
+
+.right-container{
+    background-color: $color-primary;
+    padding: 2rem;
+    border-radius: 1rem;
+
+    h2{
+        text-align: left;
+    }
+    
+    div{
+        padding: 1rem;
+        background-color: rgb(126, 72, 72);
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+        width: 15rem;
+        text-align: left;
+
+    }
+
+    span{
+        margin-left: 3rem;
+        text-align: right;
+    }
+
+}
+
+h1{
+    @include primary-font();
+    font-size: large;
+    font-weight: 800;
+    color: black;
+}
+
+.reaction{
+    color: red;
+}
+
+.submit{
+    padding: 1rem;
+    color: white;
+    background-color: bisque;
+    width: 14rem;
+    border-radius: 2rem;
+}
