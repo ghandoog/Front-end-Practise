@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Sofia|Trirong");
+
+* {
+  font-family: "Open Sans", "Sofia";
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  background-color: blue;
+  padding: 3rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 1rem;
+}
+
+.container:hover {
+  box-shadow: 16px 17px 12px -3px rgba(0, 0, 0, 0.5);
+}
+
+.container .result {
+  color: white;
+  opacity: 0.5;
+}
+
+.left-container {
+  background-color: pink;
+  padding: 1%;
+  border-radius: 2rem;
+}
+
+.result-title, p {
+  color: white;
+  opacity: 0.5;
+  margin-bottom: 2rem;
+}
+
+.rounded-circle {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: purple;
+  border-radius: 25rem;
+  padding: 2rem;
+  margin-left: auto;
+}
+
+.score-point {
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+}
+
+.state {
+  font-weight: bolder;
+  color: white;
+  font-size: 20px;
+  margin-top: 1rem;
+}
+
+p {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.right-container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.right-container h2 {
+  text-align: left;
+}
+
+.right-container div {
+  padding: 1rem;
+  background-color: rgb(126, 72, 72);
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  width: 15rem;
+  text-align: left;
+}
+
+.right-container span {
+  margin-left: 3rem;
+  text-align: right;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  font-size: large;
+  font-weight: 800;
+  color: black;
+}
+
+.reaction {
+  color: red;
+}
+
+.submit {
+  padding: 1rem;
+  color: white;
+  background-color: bisque;
+  width: 14rem;
+  border-radius: 2rem;
+}
+/*# sourceMappingURL=main-style.css.map */

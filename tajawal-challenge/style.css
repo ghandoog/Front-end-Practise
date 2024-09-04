@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: "Open Sans";
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+section{
+    height: 25rem;
+    background-color: #003143;
+    color: rgba(202, 202, 102);
+}
+
+.container{
+    display: flex;
+    
+}
+
+.logo{
+    padding: 2rem;
+    margin-right: 8rem;
+    display: inline-block;
+}
+
+.inquiry-service{
+    display: flex;
+    float: right;
+    padding: 1rem;
+}
+
+.inquiry-service button{
+    padding: 1rem;
+    border-style: none;
+    background-color: inherit;
+    color: white;
+}
+
+
+
+h1{
+    font-size: 34px;
+    font-family:"Open Sans", "Noto Naskh Arabic";
+    padding-top: 1rem;
+
+}
+
+.maintext{
+    position: absolute;
+    top: 30%;
+    padding: 2rem;
+    color: white;
+}
+
+.maintext p{
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.main-buttons{
+    display: flex;
+}
+
+.main-buttons button{
+    opacity: .5;
+}
+
+.btn-flight{
+    display: flex;
+    align-items: center;
+}
+
+.btn-flight a{
+    width: 10px;
+    height: 10px;
+}
+
+.img-hero img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.travel-options{
+    display: flex;
+    margin-left: 2rem;
+    align-items: center;
+
+}
+
+
+
+.travel-options button{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 150px;
+    height: fit-content;
+    border-radius: 4px;
+    background-color: white;
+    opacity: .8;
+    border-style: none;
+    margin: 0px 1px 0px 1px ;
+}
+
+.btn-hotel{
+    display: flex;
+}
+
+.flight-link{
+    padding: 1rem;
+}
+
+.flighs{
+    display: flex;
+    margin-left: 1rem;
+}
+
+.list-items{
+    display: flex;
+}
+
+.list-items button{
+    padding: 1rem;
+}
+
+input{
+    padding: 1rem;
+}

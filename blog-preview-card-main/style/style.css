@@ -1,0 +1,29 @@
+body {
+  background-color: yellow;
+}
+
+.main-header {
+  width: 22rem;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: white;
+  box-shadow: 8px 5px 0px 4px rgb(0, 0, 0);
+}
+.main-header img {
+  border-radius: 1rem;
+}
+.main-header p {
+  opacity: 0.5;
+}
+.main-header .sub-title {
+  background-color: orange;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.main-header .footer {
+  display: flex;
+  gap: 10px;
+}/*# sourceMappingURL=style.css.map */

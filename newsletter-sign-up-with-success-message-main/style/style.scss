@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: blueviolet;
+    font-family: "Roboto", "Helvetica Neue";
+}
+
+.container{
+    display: flex;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 2rem;
+
+    .left-container{
+        margin: auto;
+        margin-top: 10%;
+
+        .sign-form{
+            display: flex;
+
+            @mixin input{
+                padding: 1rem;
+                border-radius: 5px;
+                border-width: 1px;
+                width: 20rem;
+            }
+
+            button{
+                @include input();
+            }
+        }
+    }
+
+    icon{
+        margin: 10rem;
+    }
+
+    .fa-solid{
+        background-color: orange;
+        padding: 5px;
+        border-radius: 1rem;
+    }
+
+    
+}
